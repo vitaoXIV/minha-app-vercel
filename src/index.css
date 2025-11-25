@@ -46,6 +46,25 @@ button {
   cursor: pointer;
   transition: border-color 0.25s;
 }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 10px;
+  width: 300px;
+  text-align: center;
+  color: black;
+}
 button:hover {
   border-color: #646cff;
 }
